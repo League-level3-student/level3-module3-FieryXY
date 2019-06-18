@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		SpecialString pfs = new PairFlipString("This is a dog in its home town");
+		System.out.print(pfs.toString());
+		assertEquals("hTsii  s aod gnii sth mo eotnw", pfs.toString());
 	}
 }
